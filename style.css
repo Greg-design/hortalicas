@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    padding: 20px 35px;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 5px 15px;
+}
+li a{
+    text-decoration:none ;
+    color: white;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url('assets/wave-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container img{
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 20%;
+}
+.container .title{
+    position: absolute;
+    left: 0;
+    top: 100px;
+    padding: 40px 40px ;
+    color: white;
+}
+.container .descricao{
+    position: absolute;
+    top: 230px;
+    padding: 20px 40px;
+    color: white;
+}
+.container .botao{
+    position: absolute;
+    left: 35px;
+    top: 300px;
+    border-radius: 20px;
+    padding: 3px;
+}
+.botao:hover{
+    background-color: rgb(110, 185, 110);
+    color: white;
+}
+
+.container2 .verd{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 200px;
+    top: 700px;
+    border-radius: 50%;
+}
+
+.container2 .sobre{
+    position: absolute;
+    right: 100px;
+    top: 650px;
+    padding: 60px 455px;
+    color: rgb(61, 206, 61);
+}
+
+.container2 .title2{
+    position: absolute;
+    right: 100px;
+    top: 700px;
+    padding: 60px 40px;
+    color: rgb(61, 206, 61);
+}
+.container2 .desc2{
+    position: absolute;
+    right: 100px;
+    top: 800px;
+    padding: 60px 45px;
+    color: rgb(61, 206, 61);
+}
+/*------------------------------------------------------*/
+
+.container3 .milho{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 150px;
+    top: 1050px;
+    border-radius: 50%;
+}
+
+.container3 .sobre2{
+    position: absolute;
+    left: 80px;
+    top: 1050px;
+    color: rgb(61, 206, 61);
+    padding: 0 100px;
+}
+
+.container3 .title3{
+    position: absolute;
+    left: 0;
+    top: 1100px;
+    color: rgb(61, 206, 61);
+    padding: 0 180px;
+}
+.container3 .desc3{
+    position: absolute;
+    left: 0;
+    top: 1200px;
+    color: rgb(61, 206, 61);
+    padding: 0 180px;
+}
+hr{
+    position: relative;
+    top: 800px;
+}
+footer .endereco{
+    position: relative;
+    top: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(61, 206, 61);
+    color: white;
+}
+.endereco h1{ 
+    padding: 30px 0;
+}
+.endereco p:last-child{
+    margin-bottom: 20px;
+}
